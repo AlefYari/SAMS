@@ -1,0 +1,133 @@
+/* Global Styles */
+body {
+    font-family: 'Courier New', Courier, monospace; /* Monospace for a hacker feel */
+    background-color: #ffffff; /* Light background */
+    color: #333333; /* Dark text */
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* Headings */
+h1, h2, h3 {
+    color: #ff0000; /* Bright red headings */
+    text-shadow: 0 0 5px rgba(255, 0, 0, 0.5); /* Subtle shadow for effect */
+}
+
+/* Forms */
+.form {
+    background: #f9f9f9; /* Light form background */
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    max-width: 400px; /* Limit form width */
+}
+
+/* Input Fields */
+input[type="text"],
+input[type="password"] {
+    width: calc(100% - 20px); /* Full width minus padding */
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ff0000; /* Red border */
+    border-radius: 5px;
+    background: #ffffff; /* White input background */
+    color: #333333; /* Dark text color */
+}
+
+/* Submit Buttons */
+input[type="submit"] {
+    background: #ff0000; /* Red submit button */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background: #cc0000; /* Darker red on hover */
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ff0000; /* Red borders for tables */
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    background: #ffffff; /* White background for table rows */
+}
+
+th {
+    background-color: #ff0000; /* Red header background */
+    color: white; /* White text for headers */
+}
+
+tr:hover {
+    background-color: rgba(255, 0, 0, 0.1); /* Light red background on row hover */
+}
+
+/* Tabs */
+.tabs {
+    overflow: hidden;
+ /* White background for tabs */
+    margin-bottom: 20px;
+ /* Rounded corners */
+}
+
+.tab {
+    float: left;
+    background-color: #ffffff; /* White background for inactive tabs */
+    color: #ff0000; /* Red text */
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-radius 1s;
+    border-radius: 8px;
+}
+
+.tab:hover {
+    background-color: rgba(255, 0, 0, 0.1); /* Light red on hover */
+}
+
+.tab.active {
+    background-color: #ff0000; /* Active tab red color */
+    color: #fa5c5c; /* White text for active tab */
+    border-radius: 10px;
+}
+.tab.active:hover {
+    background-color: brown;
+}
+
+/* Tab Content */
+.tab-content {
+    background-color: #f9f9f9; /* Light background for tab contents */
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: -1px; /* Aligns with tabs smoothly */
+}
+
+/* Logout Button */
+.logout-button {
+    float: right;
+    background-color: #dc3545; /* Red background for logout */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.logout-button:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
