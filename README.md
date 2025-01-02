@@ -45,3 +45,5 @@ For non-admins, **SAMS** is your go-to tool to:
 
 ```bash
 git clone https://github.com/yourusername/SAMS.git
+```
+- defaul admin is admin:admin
