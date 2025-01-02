@@ -66,10 +66,7 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`id`, `username`, `password`, `is_admin`) VALUES
 (1, 'admin', '$2y$10$q.JFQgz99dkBaf8Bok23Y.UpAKSgWrqv8u4TcvNw1et8lPzpMhRJ.', 1),
-(2, 'iliyaaliyari', '$2y$10$Sm0ST9Nzo9kZ2N1WHFMA8uxJd8k3bZ.S59dbvmBliAkbf0fxxxKrC', 0),
-(3, 'iliyaaliasdayari', '$2y$10$kAB3WypfYwXRAiRhOrNLeeDPiAPT70.7qKOBAvJ5crLxoQP0skXcW', 0),
-(4, 'test', '$2y$10$3yS1LviVT1tR7UExclo29.JMY0YIrca8OJ4U6w146RmMYuYwwYpUq', 0),
-(5, 'ert', '$2y$10$6CNV4qdu0ju/FixALNN2hOtQVxST5KaWLiT1GQWfaKfmmxJYN1RXi', 1);
+(2, 'test', '$2y$10$3yS1LviVT1tR7UExclo29.JMY0YIrca8OJ4U6w146RmMYuYwwYpUq', 0);
 
 -- --------------------------------------------------------
 
